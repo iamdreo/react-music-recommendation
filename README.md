@@ -1,1 +1,1 @@
-simple one page responsive react app built with the deezer api to recommend music and see featured artists and podcasts of the week 
+simple one page responsive react app built with the deezer api to recommend music and see featured artists and podcasts of the week. You could view the preview here : https://iamdreo.github.io/react-music-recommendation
