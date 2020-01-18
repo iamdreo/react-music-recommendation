@@ -1,0 +1,163 @@
+
+
+.App {
+  background-image: url("https://images.unsplash.com/photo-1507334608139-c6cbaabf6621?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+  background-color: #cccccc;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.App-text {
+  
+  position: absolute;
+  top: 55%;
+  left: 18.5%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+#banner-heading {
+	font-size: 4vh;
+	 position: absolute;
+ 
+  left: 38%;
+}
+
+#banner-text {
+	
+  font-size: 15px;
+  margin-top: 30%;
+  margin-left: 38%;
+  color: white;
+}
+
+.App2 {
+	background: black ;
+}
+
+.chart-grid {
+  display: grid;
+  grid-template-rows: auto auto;
+  width: 95%;
+  margin-left: 5%;
+ 
+ }
+
+.event-grid {
+  display: grid;
+  grid-template-rows: auto auto;
+  width: 90%;
+  
+}
+
+.news-grid {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  width: 82%;
+}
+
+.radio-chart {
+   
+  height: 100px;
+  width: 230px;
+  background: #29B2CB ;
+  border-radius: 5%;
+
+}
+
+.voice-2019 {
+   
+  height: 100px;
+  width: 230px;
+  background: #43F5CC ;
+  border-radius: 5%;
+
+}
+
+footer {
+   
+   height: 8vh;
+   width: 100%;
+   background-color: #29B2CB;
+   color: white;
+   margin: 0
+}
+
+footer p {
+  margin-left: 5%;
+}
+
+@media only screen and (min-width: 600px) {
+
+  .App {
+  background-image: url("https://images.unsplash.com/photo-1507334608139-c6cbaabf6621?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.App-text {
+  
+  position: absolute;
+  top: 60%;
+  left: 18.5%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+#banner-heading {
+  font-size: 8vh;
+   position: absolute;
+ 
+  left: 38%;
+}
+
+#banner-text {
+  
+ 
+  margin-top: 20%;
+  margin-left: 38%;
+  color: white;
+}
+
+.chart-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 95%;
+  margin-left: 5%;
+ 
+ }
+
+ .event-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+  
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 82%;
+}
+
+footer {
+   
+   height: 8vh;
+   width: 100%;
+   background-color: #29B2CB;
+   color: white;
+   text-align: center;
+   margin: 0
+}
+footer p {
+  margin-left: 0;
+}
+
+}
